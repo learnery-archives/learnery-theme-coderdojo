@@ -2,8 +2,12 @@
 
 A yellow theme for learnery with some images.
 
+![learnery with theme coderdojo](http://learnery.github.io/images/screenshot-3.png) 
+
+[learnery with theme coderdojo](http://ancient-tor-6627.herokuapp.com/)
+
 learnery is and app for organizing learning events
-https://github.com/learnery/theme-blank.git
+https://github.com/learnery/learnery
 
 ## Installation
 
@@ -15,21 +19,9 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+See the documentation of learnery for more information about
+using different themes and adapting themes.
 
-    $ gem install learnery-theme
-
-## Using a ready-made theme
-
-there are several other themes to choose
-from, have a look at https://github.com/learnery/.
-
-## Creating your own theme
-
-1. Fork one of the readymade themes
-2. Point your Gemfile to your own git repository
-
-    gem 'learnery-theme', :git => https://github.com/MYGIT/theme-MINE.git
 
 ## Fixing Problems in this theme
 
