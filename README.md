@@ -1,14 +1,15 @@
-# Learnery::Theme
+# Learnery::Theme (variant: coderdojo)
 
-A blank theme for learnery,
-and app for organizing learning events
+A yellow theme for learnery with some images.
+
+learnery is and app for organizing learning events
 https://github.com/learnery/theme-blank.git
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'learnery-theme'
+    gem 'learnery-theme', :git => 'https://github.com/learnery/learnery-theme-coderdojo.git'
 
 And then execute:
 
@@ -20,13 +21,8 @@ Or install it yourself as:
 
 ## Using a ready-made theme
 
-to pick another theme than the blank theme,
-
-    gem 'learnery-theme', :git => https://github.com/learnery/theme-webdev.git
-
-or fork a theme and point to your own git repository:
-
-    gem 'learnery-theme', :git => https://github.com/MYGIT/theme-MINE.git
+there are several other themes to choose
+from, have a look at https://github.com/learnery/.
 
 ## Creating your own theme
 
@@ -35,7 +31,7 @@ or fork a theme and point to your own git repository:
 
     gem 'learnery-theme', :git => https://github.com/MYGIT/theme-MINE.git
 
-## Fixing Problems in the Blank Theme
+## Fixing Problems in this theme
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
