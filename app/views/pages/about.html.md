@@ -1,34 +1,35 @@
-## Learnery
+## Lernerei
 
-Learnery is a rails app you can use to organize open learning events, 
-like railsbridge, barcamps, user groups, meetups, hackathons. 
+Eine App die Dir hilft Dein offenes Lern-Event wie 
+railsgirls, computerclub, barcamp zu veranstalten.
 
-You can adapt the theme to your liking 
-and deploy the app to heroku in a few simple steps.
+Du kannst dieses Theme an Deine Bedürfnisse anpassen
+und die App mit wenigen einfachen Schritten auf heroku veröffentlichen.
 
-### This Site
+### Diese Website
 
-Look at the URL of this site: 
+Schau auf die URL dieser Website:
 
 http://learnery-staging-coderdojo.herokuapp.com/
 
-is it the official demo site of Learnery with theme-coderdojo.
+ist die offizielle Demo-Seite dieses Themes.
 
-Do you see a diffrent URL?  Then this is some 
-installation of learnery, with the theme-coderdojo
-installed, showing the default static pages that come with it.
+Siehst Du eine andere URL? Dann hat jemand seine
+eigene Installation von Lernerei gemacht, und den 
+Text auf diese Seite noch nicht angepasst.
 
-### This Theme
+### Dieses Theme
 
-This theme was designed with an events for kids in mind. 
-(If you use it, please replace the images in ./vendor/assets/images/ first!)
+Dieses Theme ist für eine Veranstaltung mit Kindern.
+(Wenn Du es benutzt: bitte ersetze zuerst die Bilder in in ./vendor/assets/images/)
 
-The rsvp-page does not display infos (neither names nor numbers).
-See file app/views/events/_rsvp.html.erb  and the readme of
-learnery for the methods and partials you might use there to change this.
+Es werden keine Namen von TeilnehmerInnen angezeigt, sondern
+nur Zahlen. Siehe app/views/events/_rsvp.html.erb und die README.md Datei
+von Lernerei um mehr über die Methoden und Partials zu erfahren, die
+man verwernden kann um das zu ändern.
 https://github.com/learnery/learnery
 
-### Try it now
+### Selber ausprobieren
 
-You can downlod Learnery from https://github.com/learnery/learnery
+Du kannst Lernerei runterladen von https://github.com/learnery/learnery
 
